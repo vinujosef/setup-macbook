@@ -1,0 +1,62 @@
+#!/bin/zsh
+
+# Core
+brew install \
+  mas \
+  bash-completion \
+  docker-compose \
+  diff-so-fancy \
+  fswatch \
+  git \
+  git-gui \
+  kubernetes-cli \
+  kubectx \
+  mysql \
+  postgresql \
+  postgresql@11 \
+  postgresql@12 \
+  stern \
+  vim \
+  #Need next 5 while installing pyenv 👇
+  openssl \
+  readline \
+  sqlite3 \
+  xz \
+  zlib \
+  pyenv \
+  yarn &&
+
+# Optional Core
+brew install \
+ maven &&
+
+# Cask
+brew install --cask \
+  atom \
+  visual-studio-code \
+  google-chrome \
+  firefox \
+  iterm2 \
+  vlc \
+  slack \
+  postgres-unofficial \
+  postman \
+  appcleaner \
+  the-unarchiver \
+  spotify \
+  zoom \
+  github \
+  robo-3t \
+  dbschema \
+  ngrok \
+  rectangle \
+  notion \
+  postico \
+  figma \
+  paintbrush \
+
+
+# Install Manually
+# - Monosnap
+# - Todoist
+# - 

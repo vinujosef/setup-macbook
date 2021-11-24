@@ -1,0 +1,7 @@
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+https://sourabhbajaj.com/mac-setup/Git/
+
+1. Create new ssh keys for github/gitlab - work/personal
+2. Save all details in ~/.ssh/config
+3. Save public keys to github/gitlab

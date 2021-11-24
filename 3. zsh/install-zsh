@@ -1,0 +1,12 @@
+# !/bin/zsh
+
+#Catalina comes with zsh as default shell
+
+#Find which shell is on your Mac
+#echo ${SHELL}
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo "=====>INSTALLED Oh My Zsh"
+
+cp .zshrc ~/.zshrc
+echo "===>>> COPIED .zshrc TO ~/."

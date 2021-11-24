@@ -1,0 +1,85 @@
+#!/bin/zsh
+
+# sudo xattr -dr com.apple.quarantine /Applications/[App name]
+# open /Applications/[App name]
+
+
+#Atom
+sudo xattr -dr com.apple.quarantine /Applications/Atom.app
+open /Applications/Atom.app
+
+#VS Code
+sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
+open /Applications/Visual\ Studio\ Code.app
+
+#Google Chrome
+sudo xattr -dr com.apple.quarantine /Applications/Google\ Chrome.app
+open /Applications/Google\ Chrome.app
+
+#Firefox
+sudo xattr -dr com.apple.quarantine /Applications/Firefox.app
+open /Applications/Firefox.app
+
+#iTerm2
+sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
+open /Applications/iTerm.app
+
+#VLC
+sudo xattr -dr com.apple.quarantine /Applications/VLC.app
+open /Applications/VLC.app
+
+#Slack
+sudo xattr -dr com.apple.quarantine /Applications/Slack.app
+open /Applications/Slack.app
+
+#Postgres
+sudo xattr -dr com.apple.quarantine /Applications/Postgres.app
+open /Applications/Postgres.app
+
+#Postman
+sudo xattr -dr com.apple.quarantine /Applications/Postman.app
+open /Applications/Postman.app
+
+#AppCleaner
+sudo xattr -dr com.apple.quarantine /Applications/AppCleaner.app
+open /Applications/AppCleaner.app
+
+#The-Unarchiver
+sudo xattr -dr com.apple.quarantine /Applications/The\ Unarchiver.app
+open /Applications/The\ Unarchiver.app
+
+Spotify
+sudo xattr -dr com.apple.quarantine /Application/Spotify.app
+open /Applications/Spotify.app
+
+#Zoom - didn't work
+#sudo xattr -dr com.apple.quarantine /Applications/Zoom.app
+#open /Applications/Zoom.app
+
+#Github Desktop
+sudo xattr -dr com.apple.quarantine /Applications/Github\ Desktop.app
+open /Applications/Github\ Desktop.app
+
+#Robo3T - didn't work
+#sudo xattr -dr com.apple.quarantine /Applications/Robo\ 3T.app
+#open /Applications/Robo\ 3T.app
+
+#DBSchema
+sudo xattr -dr com.apple.quarantine /Applications/The\ Unarchiver.app
+open /Applications/The\ Unarchiver.app
+
+#Reactangle
+sudo xattr -dr com.apple.quarantine /Applications/Reactangle.app
+open /Applications/Reactangle.app
+
+#Notion
+sudo xattr -dr com.apple.quarantine /Applications/Notion.app
+open /Applications/Notion.app
+
+#Postico
+sudo xattr -dr com.apple.quarantine /Postico.app
+open /Applications/Postico.app
+
+#Figma
+sudo xattr -dr com.apple.quarantine /Applications/Figma.app
+open /Applications/Figma.app

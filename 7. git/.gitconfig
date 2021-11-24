@@ -1,0 +1,65 @@
+[core]
+	excludesfile = /Users/vinu.joseph/.gitignore_global
+	excludefile = /Users/vinu.joseph/.gitignore.global
+	editor = vim
+	pager = diff-so-fancy | less --tabs=4 -RFX
+[commit]
+	template = /Users/vinu.joseph/.stCommitMsg
+[diff]
+  	tool = meld
+[difftool]
+  	prompt = false
+[difftool "meld"]
+  	trustExitCode = true
+  	cmd = open -W -a Meld --args \"$LOCAL\" \"$REMOTE\"
+[merge]
+  	tool = meld
+[mergetool]
+  	prompt = false
+[mergetool "meld"]
+  	trustExitCode = true
+  	cmd = open -W -a Meld --args --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output=\"$MERGED\"
+[gui]
+	fontdiff = -family \"Operator Mono\" -size 14 -weight normal -slant roman -underline 0 -overstrike 0
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Vinu Joseph
+	email = vinu.joseph@gofore.com
+[alias]
+  a = add .
+	d = diff -w  # remove whitespace changes during git diff
+	cm = commit -m
+	p = pull
+	s = status -sb
+	sh = stash
+	sp = stash pop
+	cob = checkout -b
+	co = checkout
+	com = checkout master
+	remotepush = !git push -u origin $(git rev-parse --abbrev-ref HEAD)
+	llog = log --oneline
+	lall = log --graph --oneline --decorate --all
+	lstat = log --graph --oneline --decorate --stat
+	lname = log --graph --decorate --pretty=format:'%C(yellow)%h%Creset%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset'
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[pull]
+	ff = only
+[submodule]
+	recurse = true

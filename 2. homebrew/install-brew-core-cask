@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+#Install Homebrew, Core and Cask
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo "=====> INSTALLED HOMEBREW"
+
+chmod +x brewfile
+./brewfile
+echo "=====> RUN BREWFILE - INSTALLED CORE AND CASK"
+
+chmod +x security
+./security
+echo "=====> OPEN ALL INSTALLED CASKS"

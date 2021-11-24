@@ -1,0 +1,44 @@
+https://faun.pub/pyenv-multi-version-python-development-on-mac-578736fb91aa
+
+Refer:
+https://github.com/pyenv/pyenv#homebrew-on-macos
+https://switowski.com/blog/pyenv
+https://faun.pub/pyenv-multi-version-python-development-on-mac-578736fb91aa
+
+1. make sure pyenv is installed via brew
+2. echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
+3. echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+4. Restart mac
+
+
+# All Versions
+pyenv versions
+
+# Find All Versions
+pyenv install --list
+
+# Set Version of Python to Global Default
+pyenv global <version>
+
+# Set Local Version of Python
+pyenv local <verison>
+
+# RUN AFTER EVERY NEW PYTHON INSTALLION VIA PYENV
+pyenv rehash
+
+---
+
+# Upgrade pip
+pip install --upgrade pip
+
+---
+# https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
+
+# INSTALL venv
+pip install virtualenv
+
+# Set up virtualenv for a project by running
+virtualenv venv
+
+# Activate venv
+source venv/bin/activate

@@ -1,0 +1,7 @@
+# !/bin/zsh
+
+# copy .gitconfig to ~/
+cp .gitconfig ~/.gitconfig
+
+# copy .gitignore_global
+cp .gitignore_global ~/.gitignore_global

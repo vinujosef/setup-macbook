@@ -1,0 +1,35 @@
+# !/bin/zsh
+
+# RUN THESE COMMANDS BY HAND
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+echo "DOWNLOAD NVM"
+
+# Copy what's mentioned in the terminal and paste to ".zshrc"
+
+nvm install node
+echo "INSTALL LATEST NODE"
+
+# Restart terminal and run:
+nvm use node
+
+#Confirm that you are using the latest version of Node and NPM
+node -v && npm -v
+
+# Update Node
+# nvm install node --reinstall-packages-from=node
+
+# See the list of node version in the system
+# nvm list
+
+# Install a specific Node version
+nvm install xx.xx
+
+nvm use xx.xx
+
+# Change node version using nvm
+# nvm use 10
+# the above changes the node version running in the system to v10.x.x (the one installed in the system)
+
+# Set default node version
+nvm alias default 10.18.0
