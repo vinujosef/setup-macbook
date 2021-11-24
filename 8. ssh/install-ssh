@@ -3,5 +3,16 @@ https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-
 https://sourabhbajaj.com/mac-setup/Git/
 
 1. Create new ssh keys for github/gitlab - work/personal
+eg.
+$ ssh-keygen -t ed25519-sk -C "your-email@example.com"
+
 2. Save all details in ~/.ssh/config
+eg.
+Host gitlab.com
+  Hostname gitlab.com
+  UseKeychain yes
+  IdentityFile ~/.ssh/vinujosef-gitlab
+  TCPKeepAlive yes
+  IdentitiesOnly yes
+
 3. Save public keys to github/gitlab
