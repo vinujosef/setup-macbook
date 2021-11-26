@@ -2,6 +2,8 @@ https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-
 
 https://sourabhbajaj.com/mac-setup/Git/
 
+https://medium.com/uncaught-exception/setting-up-multiple-gitlab-accounts-82b70e88c437
+
 1. Create new ssh keys for github/gitlab - work/personal
 eg.
 $ ssh-keygen -t ed25519-sk -C "your-email@example.com"
