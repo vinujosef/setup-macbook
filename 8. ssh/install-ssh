@@ -5,11 +5,11 @@ https://sourabhbajaj.com/mac-setup/Git/
 https://medium.com/uncaught-exception/setting-up-multiple-gitlab-accounts-82b70e88c437
 
 1. Create new ssh keys for github/gitlab - work/personal
-eg.
+
 $ ssh-keygen -t ed25519 -C "your-email@example.com"
 
 2. Save all details in ~/.ssh/config
-eg.
+
 Host gitlab.com
   User MyGitLabUserName
   Hostname gitlab.com
@@ -18,4 +18,5 @@ Host gitlab.com
 # keep "Host" same .. either gitlab.com or github.com
 
 3. Save public keys to github/gitlab
-pbcpy < public-key.pb
+
+$ pbcopy < ~/.ssh/public-key.pb
