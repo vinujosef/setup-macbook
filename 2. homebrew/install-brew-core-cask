@@ -2,8 +2,8 @@
 
 #Install Homebrew, Core and Cask
 
-chmod +x brewfile-po
-./brewfile-po
+chmod +x brewfile
+./brewfile
 echo "=================================================================="
 echo "🤖👉👉👉👉👉  RUN BREWFILE - INSTALLED CORE AND CASK 👈👈👈👈👈🤖"
 echo "=================================================================="
