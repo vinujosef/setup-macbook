@@ -5,8 +5,7 @@ brew install \
   docker-compose \
   diff-so-fancy \
   git-gui \
-  vim \
-  yarn &&
+  vim &&
 echo "======================================================="
 echo "🤖👉👉👉👉👉 INSTALLED MAIN HOMEBREW CORE 👈👈👈👈👈🤖"
 echo "======================================================="
