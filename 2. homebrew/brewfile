@@ -33,6 +33,7 @@ brew install --cask \
   monitorcontrol \
   microsoft-teams \
   shottr \
+  authy
   
 echo "=================================================="
 echo "🤖👉👉👉👉👉 INSTALLED HOMEBREW CASK 👈👈👈👈👈🤖"
