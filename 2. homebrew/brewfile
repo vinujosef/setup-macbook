@@ -2,61 +2,38 @@
 
 # Core
 brew install \
-  mas \
-  bash-completion \
   docker-compose \
   diff-so-fancy \
-  fswatch \
-  git \
   git-gui \
-  kubernetes-cli \
-  kubectx \
-  mysql \
-  postgresql \
-  postgresql@11 \
-  postgresql@12 \
-  stern \
   vim \
-  #Need next 5 while installing pyenv 👇
-  openssl \
-  readline \
-  sqlite3 \
-  xz \
-  zlib \
-  pyenv \
   yarn &&
+echo "======================================================="
+echo "🤖👉👉👉👉👉 INSTALLED MAIN HOMEBREW CORE 👈👈👈👈👈🤖"
+echo "======================================================="
 
 # Optional Core
 brew install \
  maven &&
+echo "==========================================================="
+echo "🤖👉👉👉👉👉 INSTALLED OPTIONAL HOMEBREW CORE 👈👈👈👈👈🤖"
+echo "==========================================================="
 
 # Cask
 brew install --cask \
-  atom \
-  visual-studio-code \
   google-chrome \
   firefox \
+  rectangle \
+  visual-studio-code \
   iterm2 \
-  vlc \
   slack \
-  postgres-unofficial \
+  vlc \
   postman \
   appcleaner \
   the-unarchiver \
-  spotify \
-  zoom \
-  github \
-  robo-3t \
-  dbschema \
-  ngrok \
-  rectangle \
-  notion \
-  postico \
-  figma \
-  paintbrush \
-
-
-# Install Manually
-# - Monosnap
-# - Todoist
-# - 
+  monitorcontrol \
+  microsoft-teams \
+  shottr \
+  
+echo "=================================================="
+echo "🤖👉👉👉👉👉 INSTALLED HOMEBREW CASK 👈👈👈👈👈🤖"
+echo "=================================================="

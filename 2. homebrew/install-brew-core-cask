@@ -2,13 +2,14 @@
 
 #Install Homebrew, Core and Cask
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo "=====> INSTALLED HOMEBREW"
+chmod +x brewfile-po
+./brewfile-po
+echo "=================================================================="
+echo "🤖👉👉👉👉👉  RUN BREWFILE - INSTALLED CORE AND CASK 👈👈👈👈👈🤖"
+echo "=================================================================="
 
-chmod +x brewfile
-./brewfile
-echo "=====> RUN BREWFILE - INSTALLED CORE AND CASK"
-
-chmod +x security
-./security
-echo "=====> OPEN ALL INSTALLED CASKS"
+chmod +x open-cask
+./open-cask
+echo "=============================================="
+echo "🤖👉👉👉👉👉 OPEN ALL INSTALLED CASKS 👈👈👈👈👈🤖"
+echo "=============================================="

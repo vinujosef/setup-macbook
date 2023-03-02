@@ -1,0 +1,15 @@
+#!/bin/zsh
+
+#Install Homebrew
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo "============================================="
+echo "🤖👉👉👉👉👉 INSTALLED HOMEBREW 👈👈👈👈👈🤖"
+echo "============================================="
+
+#Install git
+
+brew install git
+echo "========================================"
+echo "🤖👉👉👉👉👉 INSTALLED GIT 👈👈👈👈👈🤖"
+echo "========================================"

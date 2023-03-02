@@ -1,4 +1,6 @@
 #!/bin/zsh
 
 xcode-select --install
-echo "INSTALLED XCODE"
+echo "=========================================="
+echo "🤖👉👉👉👉👉 INSTALLED XCODE 👈👈👈👈👈🤖"
+echo "=========================================="
