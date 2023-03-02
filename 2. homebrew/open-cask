@@ -52,6 +52,10 @@ open /Applications/Microsoft\ Teams.app/
 sudo xattr -dr com.apple.quarantine /Application/Shottr.app
 open /Applications/Shottr.app
 
+#Authy
+sudo xattr -dr com.apple.quarantine /Application/Authy.app
+open /Applications/Authy.app
+
 echo "=============================================="
 echo "🤖👉👉👉👉👉 OPENED ALL HOMEBREW CASK 👈👈👈👈👈🤖"
 echo "=============================================="
