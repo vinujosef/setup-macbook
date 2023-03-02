@@ -18,6 +18,7 @@ echo "🤖👉👉👉👉👉 INSTALLED OPTIONAL HOMEBREW CORE 👈👈👈👈
 echo "==========================================================="
 
 # Cask
+# make sure none of these casks are already installed, that will cause it to fail
 brew install --cask \
   google-chrome \
   firefox \
